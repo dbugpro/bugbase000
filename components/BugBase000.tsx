@@ -415,9 +415,9 @@ const BugBase000: React.FC<BugBase000Props> = ({ onBack }) => {
         <div className="w-full max-w-4xl border-2 border-green-500/50 rounded-lg bg-black/80 p-6 shadow-[0_0_20px_rgba(34,197,94,0.2)] backdrop-blur-md relative overflow-hidden h-[600px] flex flex-col justify-center items-center">
             <div className="absolute inset-0 bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] z-0 pointer-events-none bg-[length:100%_4px,3px_100%]"></div>
             <div className="text-left space-y-4 w-full max-w-lg z-10">
-                <p className="animate-[typewriter_0.5s_steps(40)_1s_forwards] overflow-hidden whitespace-nowrap border-r-2 border-green-500 pr-1 w-0">> CONNECTING TO MAINFRAME...</p>
-                <p className="animate-[typewriter_0.5s_steps(40)_2s_forwards] overflow-hidden whitespace-nowrap border-r-2 border-green-500 pr-1 w-0 opacity-0 delay-[1500ms]">> AUTHENTICATION: BYPASSED</p>
-                <p className="animate-[typewriter_0.5s_steps(40)_3s_forwards] overflow-hidden whitespace-nowrap border-r-2 border-yellow-400 pr-1 w-0 opacity-0 delay-[2500ms] text-yellow-400">> DOWNLOADING AGENT PROTOCOLS...</p>
+                <p className="animate-[typewriter_0.5s_steps(40)_1s_forwards] overflow-hidden whitespace-nowrap border-r-2 border-green-500 pr-1 w-0">{'>'} CONNECTING TO MAINFRAME...</p>
+                <p className="animate-[typewriter_0.5s_steps(40)_2s_forwards] overflow-hidden whitespace-nowrap border-r-2 border-green-500 pr-1 w-0 opacity-0 delay-[1500ms]">{'>'} AUTHENTICATION: BYPASSED</p>
+                <p className="animate-[typewriter_0.5s_steps(40)_3s_forwards] overflow-hidden whitespace-nowrap border-r-2 border-yellow-400 pr-1 w-0 opacity-0 delay-[2500ms] text-yellow-400">{'>'} DOWNLOADING AGENT PROTOCOLS...</p>
                 <button 
                     onClick={() => setBooted(true)}
                     className="mt-8 px-4 py-2 border border-green-500 text-green-500 hover:bg-green-500 hover:text-black transition-colors opacity-0 animate-[fade-in_1s_ease-in_4s_forwards]"
